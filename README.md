@@ -107,9 +107,10 @@ Escaneando 192.168.1.x ... Buscando IPs y MACs...
 --- DISPOSITIVOS ENCONTRADOS ---
 Interfaz: 192.168.1.100 --- 0x2
   Dirección de Internet          Dirección física          Tipo
-  192.168.1.1            00-11-22-33-44-55     dinámico
-  192.168.1.50           aa-bb-cc-dd-ee-ff     dinámico
+  192.168.1.1            a0-b1-c2-d3-e4-f5     dinámico
+  192.168.1.50           6c-7d-8e-9f-a0-b1     dinámico
 ```
+*Nota: Las direcciones MAC mostradas son ejemplos. Las tuyas serán diferentes.*
 
 #### Opción 3: Escáner de Vulnerabilidades
 ```
