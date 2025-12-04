@@ -24,7 +24,7 @@ Esta herramienta está diseñada para profesionales de IT, administradores de si
 - **Mapeo de Red**: Visualiza la topología de tu red y los equipos conectados
 
 ### 🎯 3. Escáner de Vulnerabilidades "Full Spectrum"
-Análisis profundo de los **10 puertos más atacados en 2025**:
+Análisis profundo de los **9 puertos más críticos**:
 - **Puerto 445 (SMB)**: Riesgo de ransomware y archivos compartidos
 - **Puerto 3389 (RDP)**: Escritorio remoto - puerta de entrada para hackers
 - **Puerto 1433 (SQL Server)**: Base de datos expuesta - riesgo de robo de datos
@@ -37,7 +37,7 @@ Análisis profundo de los **10 puertos más atacados en 2025**:
 
 ## 🔧 Requisitos del Sistema
 
-- **Sistema Operativo**: Windows 10/11 (versión profesional recomendada para BitLocker)
+- **Sistema Operativo**: Windows 10/11 (Pro/Enterprise requerido para verificación de BitLocker)
 - **Privilegios**: Derechos de administrador (obligatorio)
 - **PowerShell**: Versión 5.0 o superior
 - **Red**: Conexión de red activa para escaneo de dispositivos
@@ -105,8 +105,10 @@ Escanea tu red local para encontrar dispositivos:
 Escaneando 192.168.1.x ... Buscando IPs y MACs...
 
 --- DISPOSITIVOS ENCONTRADOS ---
-192.168.1.1        00-11-22-33-44-55     dinámico
-192.168.1.50       aa-bb-cc-dd-ee-ff     dinámico
+Interfaz: 192.168.1.100 --- 0x2
+  Dirección de Internet          Dirección física          Tipo
+  192.168.1.1            00-11-22-33-44-55     dinámico
+  192.168.1.50           aa-bb-cc-dd-ee-ff     dinámico
 ```
 
 #### Opción 3: Escáner de Vulnerabilidades
@@ -115,7 +117,7 @@ Escaneando 192.168.1.x ... Buscando IPs y MACs...
 ```
 Analiza una IP específica en busca de puertos abiertos:
 1. Introduce la IP objetivo (ej: `192.168.1.55`)
-2. El script verificará los 10 puertos más críticos
+2. El script verificará los 9 puertos más críticos
 3. Recibirás un informe detallado del estado de cada puerto
 
 **Ejemplo de salida**:
