@@ -176,7 +176,7 @@ La herramienta utiliza una interfaz de consola mejorada con:
 
 ### Versión 2025
 - ✅ Interfaz mejorada con colores ANSI
-- ✅ Escaneo de 10 puertos críticos
+- ✅ Escaneo de 9 puertos críticos
 - ✅ Detección de direcciones MAC
 - ✅ Verificación de BitLocker
 - ✅ Análisis de actualizaciones de Windows
